@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lesson_three.eiko.lesson4_musical_submission">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Song library"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Song_1" android:label="Song 1"/>
+        <activity android:name=".Song_2" android:label="Song 2"/>
+        <activity android:name=".Song_3" android:label="Song 3"/>
+        <activity android:name=".Song_4" android:label="Song 4"/>
+    </application>
+
+</manifest>
